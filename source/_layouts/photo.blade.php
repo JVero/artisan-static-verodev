@@ -22,10 +22,13 @@
     </blockquote>
 
     <hr>
-
-    <p>DISCLAIMER: Any 3rd-party services in these posts and in the config are only recommendations/suggestions. I am not affiliated with any of them.</p>
-
     @yield('postContent')
+
+        @foreach ($page->images as $image)
+            <img src="{{ $image }}" style="object-fit: cover; width: 100%">
+            <!-- <a href="/tags/{{ $tag }}">{{ $tag }}</a> -->
+            {{ $loop->last ? '' : '-' }}
+        @endforeach
 
     <hr>
 
