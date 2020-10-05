@@ -51,6 +51,7 @@ return [
             'path' => 'photos/{filename}',
             'sort' => '-date',
             'extends' => '_layouts.photo',
+            'section' => 'postContent',
             'isPost' => true,
             'comments' => true,
             'tags' => [],
