@@ -7,12 +7,13 @@
 
     <p>I do all things tech, and I excel at learning the tools to do the best job</p>
 
-    <p>Tools of the trade I work on include:</p>
+    <p>Languages I've created major projects in</p>
         <ul>
-            <li>- Python</li>
-            <li>- C++</li>
-            <li>- Go</li>
-            <li>- Swift</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Go</li>
+            <li>Swift</li>
+            <li>Matlab</li>
         </ul>
 
     <p> I enjoy programming, photography, gaming, and the Arizona Cardinals! </p>

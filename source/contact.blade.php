@@ -5,7 +5,7 @@
 @section('content')
     <h1>Contact</h1>
 
-    <form action="https://formcarry.com/s/{{ $page->services->formcarry }}" method="post">
+    <!-- <form action="https://formcarry.com/s/{{ $page->services->formcarry }}" method="post">
         <div>
             <label for="sender">Name</label><br>
             <input type="text" name="sender" id="sender" required>
@@ -24,5 +24,6 @@
         <input type="text" name="_gotcha" style="display: none;">
 
         <input type="submit" name="submit" value="Send">
-    </form>
+    </form> -->
+
 @endsection
