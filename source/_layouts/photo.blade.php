@@ -32,7 +32,6 @@
             {{ $loop->last ? '' : '-' }}
     @endforeach
 
-    <img src="{{ $page->images[0] }}" style="object-fit: cover; width: 100%;" alt="Pog">
     <hr>
 
     @include('_partials.share')
