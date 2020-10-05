@@ -2,16 +2,16 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://artisanstatic.netlify.app',
+    'baseUrl' => 'https://stupefied-spence-0b41ae.netlify.app/',
     'site' => [
-        'title' => 'My Jigsaw Blog',
-        'description' => 'Personal blog of John Doe.',
+        'title' => 'Joe\'s writing and photos',
+        'description' => 'Joe\'s website that took 20 months to start',
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'John Doe',
-        'twitter' => 'johndoe',
-        'github' => 'johndoe',
+        'name' => 'Joe Vero',
+        'twitter' => 'joevero_',
+        'github' => 'jvero',
     ],
     'services' => [
         'cmsVersion' => '2.10.52',
