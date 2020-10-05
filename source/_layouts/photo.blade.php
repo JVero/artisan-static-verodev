@@ -15,6 +15,13 @@
             <a href="/tags/{{ $tag }}">{{ $tag }}</a>
             {{ $loop->last ? '' : '-' }}
         @endforeach
+
+        
+        @foreach ($page->images as $image)
+            <img src="{{ $image }}" style="object-fit: cover; width: 100%">
+            <!-- <a href="/tags/{{ $tag }}">{{ $tag }}</a> -->
+            {{ $loop->last ? '' : '-' }}
+        @endforeach
     </p>
 
     <blockquote data-phpdate="{{ $page->date }}">
@@ -24,11 +31,6 @@
     <hr>
     @yield('postContent')
 
-        @foreach ($page->images as $image)
-            <img src="{{ $image }}" style="object-fit: cover; width: 100%">
-            <!-- <a href="/tags/{{ $tag }}">{{ $tag }}</a> -->
-            {{ $loop->last ? '' : '-' }}
-        @endforeach
 
     <hr>
 
