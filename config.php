@@ -18,10 +18,10 @@ return [
         'analytics' => 'UA-XXXXX-Y',
         'disqus' => 'artisanstatic',
         'formcarry' => 'XXXXXXXXXXXX',
-        // 'cloudinary' => [
-            // 'cloudName' => 'artisanstatic',
-            // 'apiKey' => '365895137117119',
-        // ],
+        'cloudinary' => [
+            'cloudName' => 'vero-dev',
+            'apiKey' => '516755819211187',
+        ],
     ],
     'collections' => [
         'posts' => [
