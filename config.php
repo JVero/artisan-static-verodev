@@ -47,5 +47,19 @@ return [
                 return $page->getFilename();
             },
         ],
+        'photos' => [
+            'path' => 'photos/{filename}',
+            'sort' => '-date',
+            'extends' => '_layouts.photo',
+            'isPost' => true,
+            'comments' => true,
+            'tags' => [],
+                        'hasTag' => function ($page, $tag) {
+                return collect($page->tags)->contains($tag);
+            },
+            'prettyDate' => function ($page, $format = 'M j, Y') {
+                return date($format, $page->date);
+            },
+        ]
     ],
 ];
