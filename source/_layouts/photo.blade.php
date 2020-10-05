@@ -18,10 +18,12 @@
 
         
         @foreach ($page->images as $image)
-            <img src="{{ $image }}" style="object-fit: cover; width: 100%">
+            <img src="{{ $image }}" style="object-fit: cover; width: 100%;">
             <!-- <a href="/tags/{{ $tag }}">{{ $tag }}</a> -->
             {{ $loop->last ? '' : '-' }}
         @endforeach
+
+        <img src="{{ $page->images[0] }}" style="object-fit: cover; width: 100%;" alt="Pog">
     </p>
 
     <blockquote data-phpdate="{{ $page->date }}">
