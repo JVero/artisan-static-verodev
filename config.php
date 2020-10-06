@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://stupefied-spence-0b41ae.netlify.app/',
+    'baseUrl' => 'https://www.vero.dev/',
     'site' => [
         'title' => 'Joe\'s writing and photos',
         'description' => 'Joe\'s website that took 20 months to start',
