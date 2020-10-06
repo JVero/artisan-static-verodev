@@ -15,7 +15,7 @@ return [
     ],
     'services' => [
         'cmsVersion' => '2.10.52',
-        'analytics' => 'UA-XXXXX-Y',
+        'analytics' => 'UA-179675803-1',
         'disqus' => 'artisanstatic',
         'formcarry' => 'XXXXXXXXXXXX',
         'cloudinary' => [
