@@ -12,5 +12,6 @@ hljs.registerLanguage('yaml', require('highlight.js/lib/languages/yaml'));
 hljs.registerLanguage('markdown', require('highlight.js/lib/languages/markdown'));
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));
 hljs.registerLanguage('shell', require('highlight.js/lib/languages/shell'));
-
+hljs.registerLanguage('swift', require('highlight.js/lib/languages/swift'))
+hljs.registerLanguage('python', require('highlight.js/lib/languages/python'))
 hljs.initHighlightingOnLoad();
